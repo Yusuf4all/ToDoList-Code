@@ -1,0 +1,35 @@
+.cross{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    transition: .5s;
+}
+.cross:hover{
+    background-color: black;
+    color: white;
+}
+ul li{
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    padding: 0px;
+    /* background-color: #999999; */
+}
+ul li.checked{
+    background: #888;
+    color: white;
+    text-decoration: line-through;
+}
+ul li:hover{
+    background-color: #999999;
+}
+
+@media screen and (max-width:768px) {
+    .cross{
+        font-size: 15px;
+        padding: 5px;
+    }
+    ul li{
+        font-size: 15px;
+    }    
+}
